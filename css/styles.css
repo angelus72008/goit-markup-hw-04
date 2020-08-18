@@ -263,10 +263,10 @@
   }
   /* ФУТЕР */
   
-  .footer-nav-container {
-  margin-left: 0px;
+  .footer {
+    background-color: var(--title-text-color);
   }
-  
+
   /* ПОРТФОЛИО */
   
   .filter {
@@ -302,7 +302,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   
   .photo-list {
