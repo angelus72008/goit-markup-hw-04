@@ -183,34 +183,17 @@ padding: 10px 32px;
   display: flex;
  }
 
- /* .features-list div {
-   justify-content: center;
-   width: inherit;
-   height: 120px;
-   background: var(--text-color);
-   display: flex;
-   border-radius: 3px;
- } */
-
 .container-features {
-  margin-right: 30px;
-}
-
-.filter-list {
-  justify-content: center;
-}
-
-.features-photo {
   display: flex;
   justify-content: space-between;
-  width: inherit;
+  justify-content: center;
   height: 120px;
-  background: var(--text-color);
+  background: #F5F4FA;
   border-radius: 3px;
- 
+  margin-bottom: 30px;
 }
 
- .features-container {
+.features-container {
   padding-top: 107px;
 }
 
@@ -349,7 +332,7 @@ color: var(--title-text-color);
 /* ФУТЕР */
 
 .footer-nav-container {
-margin-left: 0px;
+margin-left: auto;
 }
 
 /* ПОРТФОЛИО */
