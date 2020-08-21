@@ -137,6 +137,7 @@ margin-right: 40px;
   fill: currentColor;
 }
 
+
 .link:hover,
 .link:focus,
 .auth-nav:hover,
@@ -239,9 +240,25 @@ padding-bottom: 50px;
 
 /* НАША КОМАНДА */
 
-.social-list-item-svg {
+.social {
   fill: #757575;
+}
+
+.social-list-item {
   display: flex;
+  justify-content: space-around;
+  padding-top: 28px;
+  padding-right: 22px;
+}
+
+.social-list .social-list-item-svg.current{
+  color: var(--accent-color);
+}
+
+.social-list-item-svg:hover,
+.social-list-item-svg:focus {
+  color: var(--background-color);
+  background:  var(--accent-color);
 }
 
 .our-team {
@@ -295,6 +312,11 @@ padding-top: 10px;
   justify-content: space-between;
 }
 
+.clients-list-photo {
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
+
 .clients .clients-list-photo {
   display: flex;
   justify-content: center;
@@ -308,7 +330,7 @@ padding-top: 10px;
 
 .clients .clients-list-photo:hover,
 .clients .clients-list-photo:focus {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--accent-color); 
 }
 
 .clients-list-item {
