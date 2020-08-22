@@ -353,8 +353,31 @@ color: var(--title-text-color);
 
 /* ФУТЕР */
 
-.footer-nav-container {
-margin-left: auto;
+.footer {
+  background-color: var(--title-text-color);
+
+}
+
+.footer-navigation {
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo-item {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  text-decoration:none;
+}
+
+.auth-address {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
 }
 
 /* ПОРТФОЛИО */
